@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>SUNDELIN SYSTEMS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="SUNDELIN SYSTEMS — Engineering in progress." />
+  <style>
+    :root {
+      --bg: #f5f5f5;
+      --text-main: #050608;
+      --text-muted: #555;
+      --accent: #999;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html, body {
+      height: 100%;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Helvetica, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text-main);
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
+
+    .page {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+
+    .card {
+      text-align: center;
+      max-width: 480px;
+    }
+
+    /* Logo block */
+    .logo {
+      margin-bottom: 1.5rem;
+    }
+
+    .logo-text {
+      font-weight: 800;
+      letter-spacing: 0.12em;
+      font-size: 1.35rem;
+      line-height: 1.25;
+    }
+
+    @media (min-width: 640px) {
+      .logo-text {
+        font-size: 1.6rem;
+      }
+    }
+
+    .tagline {
+      margin-top: 0.75rem;
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.22em;
+      color: var(--accent);
+    }
+
+    .body-text {
+      margin-top: 1.75rem;
+      font-size: 0.95rem;
+      line-height: 1.6;
+      color: var(--text-muted);
+    }
+
+    .body-text span {
+      white-space: nowrap;
+    }
+
+    .footer {
+      margin-top: 2.25rem;
+      font-size: 0.8rem;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--accent);
+    }
+  </style>
+</head>
+<body>
+  <div class="page">
+    <main class="card" aria-label="SUNDELIN SYSTEMS placeholder">
+      <header class="logo">
+        <div class="logo-text">
+          SUNDELIN<br />
+          SYSTEMS
+        </div>
+        <div class="tagline">Engineering in progress</div>
+      </header>
+
+      <p class="body-text">
+        A vision is taking shape &#8212; quietly, carefully, and with purpose.
+        <span>More will be revealed in time.</span>
+      </p>
+
+      <div class="footer">
+        &#8212; Origin Placeholder, 2025 &#8212;
+      </div>
+    </main>
+  </div>
+</body>
+</html>
+
